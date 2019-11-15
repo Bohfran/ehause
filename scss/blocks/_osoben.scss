@@ -3,6 +3,7 @@
 }
 .osoben-img-case{
     width: 50%;
+    animation: eye 3.2s infinite linear;
 }
 .osoben{
    &-wrap{
@@ -16,6 +17,7 @@
 
    &-img{
        width: 50%;
+       animation: eye 3.2s infinite linear;
    }
 
    &-img img{

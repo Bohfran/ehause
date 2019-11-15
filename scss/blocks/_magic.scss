@@ -100,6 +100,7 @@
 
         &__image{
             margin-top: -65%;
+            animation: eye 3.2s infinite linear;
         }
 
         &__img{
@@ -200,3 +201,10 @@
         }
     }
 }
+
+
+
+@keyframes eye {
+    0% {transform: rotate(0deg) translate(-6px) rotate(0deg); }   
+    100% { transform: rotate(360deg) translate(-6px) rotate(-360deg); }
+   }
