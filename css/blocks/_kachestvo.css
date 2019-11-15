@@ -1,0 +1,12 @@
+.kachestvo-bg {
+  position: absolute;
+  z-index: -10;
+  -webkit-transform: translate(-50%, 50%);
+  -ms-transform: translate(-50%, 50%);
+  transform: translate(-50%, 50%);
+  top: -73%;
+  left: 50%;
+  width: 142%; }
+
+.kachestvo-bg img {
+  width: 100%; }

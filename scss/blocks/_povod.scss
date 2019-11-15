@@ -1,0 +1,87 @@
+.povod-bg {
+    position: absolute;
+    z-index: -10;
+    transform: translate(-50%, 50%);
+    top: -69%;
+    left: 55%;
+    width: 129%;
+}
+.povod-bg img{
+    width: 100%;
+}
+
+
+.povod-img{
+    width: 50%;
+}
+
+.povod-img img{
+    width: 80%;
+    
+}
+
+
+.povod-text{
+    width: 50%;
+}
+
+@media (max-width: 991px){
+    .povod-bg {
+        position: absolute;
+        z-index: -10;
+        -webkit-transform: translate(-50%, 50%);
+        -ms-transform: translate(-50%, 50%);
+        transform: translate(-50%, 50%);
+        top: -52%;
+        left: 55%;
+        width: 130%;
+    }
+}
+
+
+@media (max-width: 800px){
+.povod-bg {
+    position: absolute;
+    z-index: -10;
+    -webkit-transform: translate(-50%, 50%);
+    -ms-transform: translate(-50%, 50%);
+    transform: translate(-50%, 50%);
+    top: -69%;
+    left: 66%;
+    width: 185%;
+}
+
+.povod-img img{
+    width: 90%;
+    
+}
+
+}
+
+@media (max-width: 699px){
+    .osoben-wrap{
+        flex-direction: column-reverse;
+    }
+
+  
+    .povod-img img{
+        width: 100%;
+        
+    }
+
+    .povod-text{
+        width: 100%;
+    }
+
+    .povod-bg {
+        position: absolute;
+        z-index: -10;
+        -webkit-transform: translate(-50%, 50%);
+        -ms-transform: translate(-50%, 50%);
+        transform: translate(-50%, 50%);
+        top: -38%;
+        left: 90%;
+        width: 283%;
+    }
+    
+}
